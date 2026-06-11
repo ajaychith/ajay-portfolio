@@ -37,12 +37,12 @@ transition={{ duration:1 }}
 
         <div className="statCard">
           <h3>SOC</h3>
-          <p>Security Analyst</p>
+          <p>Security Operations </p>
         </div>
 
         <div className="statCard">
           <h3>Full Stack</h3>
-          <p>Developer</p>
+          <p>I leverage modern AI-assisted development, WordPress, cybersecurity practices, and cloud technologies to build and maintain secure, scalable digital solutions.</p>
         </div>
 
       </div>
