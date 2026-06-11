@@ -69,17 +69,17 @@ const socialLinks = [
   {
     label: "LinkedIn Profile",
     icon: <FaLinkedin />,
-    href: "https://linkedin.com/in/YOUR_LINKEDIN"
+    href: "https://linkedin.com/in/ajaychithnanoor"
   },
   {
     label: "GitHub Profile",
     icon: <FaGithub />,
-    href: "https://github.com/YOUR_GITHUB"
+    href: "https://github.com/ajaychith"
   },
   {
     label: "Send Email",
     icon: <FaEnvelope />,
-    href: "mailto:support@umadiagnostic.com"
+    href: "mailto:chajay572@gmail.com"
   }
 ];
 
