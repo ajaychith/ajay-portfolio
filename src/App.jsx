@@ -94,7 +94,7 @@ function App() {
           transition={{ duration: 1 }}
         >
           <div className="photoCard">
-            <img src="/ajay.jpg" alt="Ajay" />
+            <img src="/Ajay.jpg" alt="Ajay" />
           </div>
         </motion.div>
       </section>
