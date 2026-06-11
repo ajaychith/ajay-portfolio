@@ -22,7 +22,7 @@ function Footer() {
 
         <div className="footerSocials">
           <a
-            href="https://linkedin.com/in/YOUR_LINKEDIN"
+            href="https://linkedin.com/in/ajaychithanoor"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -31,7 +31,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://github.com/YOUR_GITHUB"
+            href="https://github.com/ajaychith"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -40,7 +40,7 @@ function Footer() {
           </a>
 
           <a
-            href="mailto:support@umadiagnostic.com"
+            href="mailto:chajay572@gmail.com"
             aria-label="Email"
           >
             <FaEnvelope />
