@@ -5,17 +5,17 @@ function Services() {
     {
       icon: <FaShieldAlt />,
       title: "Cybersecurity",
-      desc: "Security monitoring, vulnerability assessments and infrastructure hardening."
+      desc: "Conducting security monitoring, vulnerability assessments, risk mitigation, and infrastructure hardening to strengthen organizational security and resilience."
     },
     {
       icon: <FaCode />,
       title: "Web Development",
-      desc: "I leverage modern AI-assisted development, WordPress, cybersecurity practices, and cloud technologies to build and maintain secure, scalable digital solutions. My work includes website development using wordpress, React and PHP, hosting management, backend administration, security monitoring, vulnerability assessment, and IT operations."
+      desc: "Building modern web solutions using AI-assisted development, WordPress, React, PHP, and cloud technologies with a focus on performance and security."
     },
     {
       icon: <FaServer />,
-      title: "Infrastructure",
-      desc: "Hosting, backups, email systems and server management."
+      title: "Infrastructure Management",
+      desc: "Overseeing hosting, server management, backup strategies, email systems, and IT operations to ensure reliability and business continuity."
     }
   ];
 
