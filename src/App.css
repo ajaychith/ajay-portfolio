@@ -1659,3 +1659,321 @@ textarea{
     transform:none;
   }
 }
+
+/* ================================
+   FINAL ALIGNMENT FIXES
+   Hero badges + Footer icons
+================================ */
+
+/* Hero badge top text */
+.heroBadge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+
+  padding:10px 16px;
+  margin-bottom:22px;
+
+  border-radius:999px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+
+  color:#e5e7eb;
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+}
+
+.heroBadgeDot{
+  width:9px;
+  height:9px;
+  border-radius:50%;
+  background:#00d4ff;
+  box-shadow:0 0 16px rgba(0,212,255,.9);
+  flex-shrink:0;
+}
+
+/* Hero skills row */
+.heroHighlights{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:12px;
+
+  margin-top:26px;
+  margin-bottom:26px;
+
+  max-width:680px;
+}
+
+.heroHighlight{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+
+  padding:10px 14px;
+
+  border-radius:999px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+
+  color:#e5e7eb;
+  font-size:14px;
+  font-weight:700;
+  line-height:1;
+  white-space:nowrap;
+}
+
+.heroHighlight svg{
+  display:block;
+  width:15px;
+  height:15px;
+  color:#00d4ff;
+  flex-shrink:0;
+}
+
+/* Hero buttons alignment */
+.heroActions{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+
+.heroActions .heroBtn{
+  margin-top:0;
+}
+
+.secondaryHeroBtn{
+  gap:10px;
+  background:linear-gradient(135deg,#00d4ff,#7c3aed) !important;
+}
+
+.secondaryHeroBtn svg{
+  width:14px;
+  height:14px;
+  flex-shrink:0;
+}
+
+/* Social icons in hero */
+.socials{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  margin-top:28px;
+  margin-bottom:34px;
+}
+
+.socials a{
+  width:50px;
+  height:50px;
+
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  border-radius:50%;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.12);
+
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+
+  transition:.25s ease;
+}
+
+.socials a svg{
+  width:20px;
+  height:20px;
+  display:block;
+}
+
+.socials a:hover{
+  transform:translateY(-4px);
+  background:linear-gradient(135deg,#00d4ff,#7c3aed);
+  border-color:transparent;
+  box-shadow:0 0 25px rgba(0,212,255,.3);
+}
+
+/* Footer premium alignment */
+.footer{
+  padding:65px 8% 45px;
+  text-align:center;
+  background:#050816;
+  border-top:1px solid rgba(255,255,255,.08);
+}
+
+.footerInner{
+  max-width:900px;
+  margin:0 auto;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.footer h3{
+  color:white;
+  font-size:24px;
+  margin-bottom:14px;
+}
+
+.footer p{
+  color:#b7c0d1;
+  line-height:1.7;
+  margin-bottom:22px;
+}
+
+.footerLinks{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:24px;
+  flex-wrap:wrap;
+
+  margin-top:8px;
+  margin-bottom:22px;
+}
+
+.footerLinks a{
+  color:#00d4ff;
+  text-decoration:none;
+  font-weight:800;
+  transition:.25s ease;
+}
+
+.footerLinks a:hover{
+  color:white;
+}
+
+.footerSocials{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+
+  margin-top:4px;
+  margin-bottom:24px;
+}
+
+.footerSocials a{
+  width:42px;
+  height:42px;
+
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  border-radius:50%;
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.12);
+
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+
+  transition:.25s ease;
+}
+
+.footerSocials a svg{
+  width:18px;
+  height:18px;
+  display:block;
+}
+
+.footerSocials a:hover{
+  transform:translateY(-4px);
+  background:linear-gradient(135deg,#00d4ff,#7c3aed);
+  border-color:transparent;
+  box-shadow:0 0 22px rgba(0,212,255,.25);
+}
+
+.footerCopy{
+  color:#9ca3af !important;
+  font-size:14px;
+  margin-bottom:0 !important;
+}
+
+/* Mobile alignment */
+@media(max-width:1024px){
+  .heroHighlights,
+  .heroActions{
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+@media(max-width:768px){
+  .heroBadge{
+    font-size:11px;
+    padding:9px 13px;
+    letter-spacing:1px;
+  }
+
+  .heroHighlights{
+    justify-content:center;
+    gap:10px;
+  }
+
+  .heroHighlight{
+    font-size:13px;
+    padding:9px 12px;
+  }
+
+  .heroActions{
+    width:100%;
+    justify-content:center;
+  }
+
+  .heroActions .heroBtn{
+    width:100%;
+    max-width:310px;
+  }
+
+  .socials{
+    justify-content:center;
+    margin-bottom:28px;
+  }
+
+  .footer{
+    padding:55px 20px 38px;
+  }
+
+  .footerLinks{
+    gap:18px;
+  }
+
+  .footerSocials{
+    gap:12px;
+  }
+}
+
+@media(max-width:480px){
+  .heroHighlights{
+    max-width:320px;
+  }
+
+  .heroHighlight{
+    font-size:12px;
+  }
+
+  .socials a{
+    width:44px;
+    height:44px;
+  }
+
+  .footer h3{
+    font-size:21px;
+  }
+
+  .footer p{
+    font-size:14px;
+  }
+}
