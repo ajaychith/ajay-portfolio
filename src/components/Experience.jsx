@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 function Experience() {
   const timeline = [
     {
-      year: "2020",
+      year: "2021",
       title: "Started B.Tech",
       desc: "Computer Science & Engineering"
     },
@@ -13,7 +13,7 @@ function Experience() {
       desc: "CSE Cybersecurity"
     },
     {
-      year: "2024",
+      year: "2025",
       title: "Joined Uma Diagnostic",
       desc: "Technology & Web Operations"
     },
