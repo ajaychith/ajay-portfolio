@@ -9,13 +9,12 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_zckit3b",
-        "template_j7l01dn",
-        form.current,
-        "IQKJO_L4CuH77LTlr"
-      )
+    emailjs.sendForm(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  form.current,
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
       .then(
         () => {
           alert("Message Sent Successfully!");
