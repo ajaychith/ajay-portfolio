@@ -8,7 +8,7 @@ function Navbar() {
 
       <div className="logoBox">
         <h2>AJAY</h2>
-        <span>IT Department Head & Cybersecurity Practitioner</span>
+        <span>Healthcare IT Lead & Cybersecurity Practitioner</span>
       </div>
 
       <div
